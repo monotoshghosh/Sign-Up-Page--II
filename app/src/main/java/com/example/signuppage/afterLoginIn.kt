@@ -9,16 +9,17 @@ class afterLoginIn : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_after_login_in)
 
-        val userID= intent.getStringExtra(SignInPage.KEY1)
-        val Name =intent.getStringExtra(SignInPage.KEY2)
+        val userID= intent.getStringExtra(SignInPage.KEY2)
+        val Name =intent.getStringExtra(SignInPage.KEY1)
 
 
         val Welc= findViewById<TextView>(R.id.textView3)
-        val userid= findViewById<TextView>(R.id.textV1)
-        val name = findViewById<TextView>(R.id.textV2)
+        val userid= findViewById<TextView>(R.id.textUserid)
+        val name = findViewById<TextView>(R.id.textName)
 
         Welc.text = "WELCOME $Name"
         userid.text = "Name : $userID"
+        name.text="$Name"
 
 
     }

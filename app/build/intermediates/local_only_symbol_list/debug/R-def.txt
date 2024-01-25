@@ -15,8 +15,8 @@ id ifReg
 id linearLayout
 id nameT
 id passT
-id textV1
-id textV2
+id textName
+id textUserid
 id textView
 id textView2
 id textView3
