@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.signuppage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.signuppage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.signuppage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:5:5-30:19
+23        android:allowBackup="true"
+23-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\2cb2609b64c86f2827ae5e7c4890a413\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="true"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:8:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:9:9-43
+30        android:label="@string/app_name"
+30-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:10:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:11:9-54
+32        android:supportsRtl="true"
+32-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:12:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.SignUpPage" >
+34-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:13:9-48
+35        <activity
+35-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:15:9-17:40
+36            android:name="com.example.signuppage.afterLoginIn"
+36-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:16:13-41
+37            android:exported="false" />
+37-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:17:13-37
+38        <activity
+38-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:18:9-20:40
+39            android:name="com.example.signuppage.SignInPage"
+39-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:19:13-39
+40            android:exported="false" />
+40-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:20:13-37
+41        <activity
+41-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:21:9-29:20
+42            android:name="com.example.signuppage.MainActivity"
+42-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:22:13-41
+43            android:exported="true" >
+43-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:23:13-36
+44            <intent-filter>
+44-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:24:13-28:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:25:17-69
+45-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:27:17-77
+47-->E:\A Impt Files\3. Android Devlopment\3.SS\Android Projects\6. SignUpPage-II\app\src\main\AndroidManifest.xml:27:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:12:13-84
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:13:13-37
+55            <meta-data
+55-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+56                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+56-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\c8f40a3c137af576331190c60e6967e5\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4cc25892f908c6813994ac32f3bdf0dc\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+59                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+59-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4cc25892f908c6813994ac32f3bdf0dc\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\4cc25892f908c6813994ac32f3bdf0dc\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+62                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+62-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ac20c16a95dbf2e396d135c708172b1\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+64        </service>
+65
+66        <provider
+66-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+67            android:name="com.google.firebase.provider.FirebaseInitProvider"
+67-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+68            android:authorities="com.example.signuppage.firebaseinitprovider"
+68-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+70            android:exported="false"
+70-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+71            android:initOrder="100" />
+71-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3d1e1eed9f057e2134940598d2cec390\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d16fbe26828f7870cb5ea5ab72458a69\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d16fbe26828f7870cb5ea5ab72458a69\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d16fbe26828f7870cb5ea5ab72458a69\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\d16fbe26828f7870cb5ea5ab72458a69\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\35928a773ae24ffeb7b38a01983ed3d3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\35928a773ae24ffeb7b38a01983ed3d3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\35928a773ae24ffeb7b38a01983ed3d3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.signuppage.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\5e47c5816a636d579b6f74b197b78fc8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\230a8039e2a964041ac47c6e9aa4a008\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\230a8039e2a964041ac47c6e9aa4a008\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\230a8039e2a964041ac47c6e9aa4a008\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5d4420cd1789256defc9874ebc43d4f3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
